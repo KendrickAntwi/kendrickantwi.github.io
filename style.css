@@ -169,6 +169,92 @@ td img {
   transition: background-color 0.3s ease;
 }
 
+/*  Articles Flexbox Layout  */
+.articles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Article styling */
+article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Fade-in Animation  */
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/* Navigation hover effect */
+nav a:hover {
+  background-color: #4b5563;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+/* Form hover/focus effects */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1f2937;
+  background-color: #f9fafb;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #374151;
+  transition: background 0.3s ease;
+}
+
+/*  Responsive Layouts  */
+
+/* Mobile: stacked articles */
+@media (max-width: 767px) {
+  .articles-container {
+    flex-direction: column;
+  }
+}
+
+/* Tablet: side-by-side articles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .articles-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  article {
+    flex: 1 1 45%;
+  }
+}
+
+/* Desktop: articles side-by-side */
+@media (min-width: 1025px) {
+  .articles-container {
+    flex-direction: row;
+  }
+
+  article {
+    flex: 1 1 45%;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
 /* hover effect */
 .contact-form button:hover {
   background-color: #374151;
