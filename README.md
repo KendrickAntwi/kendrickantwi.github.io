@@ -7,8 +7,9 @@ This is a portfolio I made which would house my projects I make!
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contact](#contact)
+4. [Screenshot](#screenshot)
+5. [Usage](#usage)
+6. [Contact](#contact)
 
 ## Features
 
@@ -43,6 +44,9 @@ Designed with a minimal and user-friendly interface for better readability and u
    ```
   2. Navigate into the project directory: ```cd kendrickantwi.github.io```
   3. Open index.html in your web browser to view the portfolio.
+
+## Screenshot
+![Screenshot of my portfolio](/screenshot.png)
 
 ## Usage
  Explore the various sections of my portfolio to learn more about my work and skills.
