@@ -50,4 +50,4 @@ Designed with a minimal and user-friendly interface for better readability and u
 ##Contact
 * Name: Kendrick Antwi
 * Email: kendrickantwi@gmail.com
-* GitHub: [Your GitHub Profile](https://github.com/KendrickAntwi)
+* GitHub: [Github Profile](https://github.com/KendrickAntwi)
